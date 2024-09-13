@@ -1,0 +1,50 @@
+body {
+	margin: 0;
+
+}
+
+.container {
+	background-color:red;
+	text-align: center;
+	font-size: 30px;
+	height: 250px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.header {
+	background-color: blue;
+	height: 50px;
+}
+
+.nav {
+	background-color: purple;
+	height: 50px;
+}
+
+.footer {
+	background-color: green;
+	height: 50px;
+}
+
+.content1 {
+	background-color: teal;
+	flex:1;
+	height: 100%;
+	align-content: center;
+}
+
+.main-content {
+	background-color: gray;
+ 	flex:5;
+	 height: 100%;
+	 align-content: center;
+}
+
+.content2 {
+	background-color: yellow;
+	flex:1;
+	height: 100%;
+	align-content: center;
+}

@@ -1,0 +1,9 @@
+Header {
+		text-align: center;
+		color:darkblue;
+}
+
+.flex-container {
+display:flex; 
+flex-direction: column-reverse;
+}
